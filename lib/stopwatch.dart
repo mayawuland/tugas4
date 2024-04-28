@@ -87,6 +87,7 @@ class _StopwatchPageState extends State<StopwatchPage>{
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.grey),
